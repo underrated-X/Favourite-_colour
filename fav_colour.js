@@ -1,5 +1,5 @@
  const favourite = 'purple';
- const colour = prompt ( "What's your favourite colour? ");
+ const colour = prompt ( "What's your favourite colour? ").trim();
  if ( colour === 'blue' ||  colour === 'sky blue' ||  colour === 'navy blue' ||  colour === 'dark blue' ||  colour === 'BLUE' || colour ===  'baby blue'){
     document.write( " Blue is a soft colour! 🪂");
  } else if ( colour === 'yellow' ||  colour === 'YELLOW' ||  colour === 'light yellow' || colour ===  'dark yellow'){
